@@ -6,10 +6,6 @@ import utime
 from ssd1306 import SSD1306_I2C
 from oled import Write, GFX, SSD1306_I2C
 from oled.fonts import ubuntu_mono_15, ubuntu_mono_20
-~
-
-
-
 # Initialize RFID reader and OLED display
 rfid_reader = MFRC522(spi_id=0, sck=2, miso=4, mosi=7, cs=5, rst=18)
 WIDTH = 128                                            # OLED display width
