@@ -16,7 +16,7 @@ fontSize20 = Write(display, ubuntu_mono_20)
 
 # Dictionary to store trip counts for each unique card
 trip_counts = {}
-
+  
 while True:
     rfid_reader.init()
     display.fill(0)       
